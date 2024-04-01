@@ -9,7 +9,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{7CB3565E-9A29-7F02-9C45-C871EDD5E1AE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -61,7 +62,166 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MoveCube.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\Flooded_Grounds\Scripts\WaterFloat.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\RedNotRed\3D Adaptive Parkour System\Scripts\Rig.cs" />
+    <Compile Include="Assets\TerrainDemoScene_URP\Scripts\SceneAnnotation.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\TerrainDemoScene_URP\Scripts\Readme.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\Scripts\FPSDisplay.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\Flooded_Grounds\Scripts\FPSController\CharController_Motor.cs" />
+    <Compile Include="Assets\scripts\movimment.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\scripts\MoveCube.cs" />
+    <Compile Include="Assets\Flooded_Grounds\Scripts\DisableRenderer.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\TerrainDemoScene_URP\Scripts\TerrainTreeToggle.cs" />
+    <Compile Include="Assets\RedNotRed\3D Adaptive Parkour System\Scripts\Player.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\FogModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TerrainDemoScene_URP\Notes\Stamps.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\ThirdPartyNotices.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMPro.cginc" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\FadeDistances.txt" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\EasyRoads3D\lib\DelaunayER.dll" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\Importing maps.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\EasyRoads3D\SRP Support Packages\_Readme.txt" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_Bitmap.shader" />
+    <None Include="Assets\EasyRoads3D\Resources\custom prefabs\_custom prefabs.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\ShaderGraphs\CustomFunctions\PseudoSubsurface.hlsl" />
+    <None Include="Assets\EasyRoads3D\prefab meshes\_custom prefabs.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\ProxyTerrain.txt" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMPro_Mobile.cginc" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF SSD.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\TerrainDemoScene_URP\Scripts\Resources\SceneAnnotation.uxml" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\RedNotRed\3D Adaptive Parkour System\Scripts\Documentation.txt" />
+    <None Include="Assets\Flooded_Grounds\Resources\TreeCreator\TreeCreatorBark.shader" />
+    <None Include="Assets\EasyRoads3D\Quick Start.txt" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\Layers.txt" />
+    <None Include="Assets\EasyRoads3D\lib\EasyRoads3Dv3.dll" />
+    <None Include="Assets\EasyRoads3D\_readme .txt" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\Flooded_Grounds\Resources\TreeCreator\TreeCreatorLeavesOptimized.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\Welcome.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Surface.shader" />
+    <None Include="Assets\EasyRoads3D\shaders\ER Surface.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\Reflections.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMPro_Properties.cginc" />
+    <None Include="Assets\TerrainDemoScene_URP\Scripts\Resources\SceneAnnotationUI.uss" />
+    <None Include="Assets\EasyRoads3D\shaders\ER Road.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMPro_Surface.cginc" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\DenseDetails.txt" />
+    <None Include="Assets\EasyRoads3D\shaders\ER Road Transparency.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_PBR_TopBlend.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\Flooded_Grounds\Resources\WavingGrass.shader" />
+    <None Include="Assets\Flooded_Grounds\Resources\TreeCreator\TreeCreatorBarkOptimized.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\EasyRoads3D\Resources\dynamic prefabs\dynamic prefabs.txt" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Fonts\License.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\Tiles.txt" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\Flooded_Grounds\Resources\TreeCreator\TreeCreatorLeaves.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\SkyboxAssets.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\WaterShader.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\Notes\SpeedTrees.txt" />
+    <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_Triplanar_BumpSpec.shader" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\EasyRoads3D\prefab sources\_custom prefabs.txt" />
+    <None Include="Assets\TerrainDemoScene_URP\TextMeshPro\Shaders\TextMeshPro\TMP_Sprite.shader" />
+    <None Include="Assets\EasyRoads3D\_Release Notes.txt" />
+    <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_Skybox_Rotating.shader" />
+    <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_PBR_Water.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -504,6 +664,14 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2023.2.9f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="DelaunayER">
+      <HintPath>Assets\EasyRoads3D\lib\DelaunayER.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.4.0\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@2.0.5\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
@@ -512,8 +680,16 @@
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="EasyRoads3Dv3">
+      <HintPath>Assets\EasyRoads3D\lib\EasyRoads3Dv3.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1004,32 +1180,116 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2023.2.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.TerrainTools.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TerrainTools">
+      <HintPath>Library\ScriptAssemblies\Unity.TerrainTools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rendering.LightTransport.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
@@ -1040,10 +1300,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
       <Private>False</Private>
@@ -1052,44 +1308,76 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rendering.LightTransport.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

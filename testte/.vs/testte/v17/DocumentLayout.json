@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\viniv\\OneDrive\\Documents\\UnityGame\\testte\\",
+  "WorkspaceRootPath": "C:\\Users\\viniv\\OneDrive\\Documents\\GitHub\\UnityGame\\testte\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\viniv\\OneDrive\\Documents\\UnityGame\\testte\\Assets\\MoveCube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MoveCube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CB3565E-9A29-7F02-9C45-C871EDD5E1AE}|Assembly-CSharp.csproj|c:\\users\\viniv\\onedrive\\documents\\github\\unitygame\\testte\\assets\\rednotred\\3d adaptive parkour system\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB3565E-9A29-7F02-9C45-C871EDD5E1AE}|Assembly-CSharp.csproj|solutionrelative:assets\\rednotred\\3d adaptive parkour system\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB3565E-9A29-7F02-9C45-C871EDD5E1AE}|Assembly-CSharp.csproj|c:\\users\\viniv\\onedrive\\documents\\github\\unitygame\\testte\\assets\\scripts\\movimment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB3565E-9A29-7F02-9C45-C871EDD5E1AE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movimment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MoveCube.cs",
-              "DocumentMoniker": "C:\\Users\\viniv\\OneDrive\\Documents\\UnityGame\\testte\\Assets\\MoveCube.cs",
-              "RelativeDocumentMoniker": "Assets\\MoveCube.cs",
-              "ToolTip": "C:\\Users\\viniv\\OneDrive\\Documents\\UnityGame\\testte\\Assets\\MoveCube.cs",
-              "RelativeToolTip": "Assets\\MoveCube.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAAADoAAAA3AAAA",
+              "DocumentIndex": 1,
+              "Title": "movimment.cs",
+              "DocumentMoniker": "C:\\Users\\viniv\\OneDrive\\Documents\\GitHub\\UnityGame\\testte\\Assets\\scripts\\movimment.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\movimment.cs",
+              "ToolTip": "C:\\Users\\viniv\\OneDrive\\Documents\\GitHub\\UnityGame\\testte\\Assets\\scripts\\movimment.cs",
+              "RelativeToolTip": "Assets\\scripts\\movimment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T02:32:20.802Z",
+              "WhenOpened": "2024-04-01T02:19:37.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Assets\\RedNotRed\\3D Adaptive Parkour System\\Scripts\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\viniv\\OneDrive\\Documents\\GitHub\\UnityGame\\testte\\Assets\\RedNotRed\\3D Adaptive Parkour System\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\RedNotRed\\3D Adaptive Parkour System\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\viniv\\OneDrive\\Documents\\GitHub\\UnityGame\\testte\\Assets\\RedNotRed\\3D Adaptive Parkour System\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\RedNotRed\\3D Adaptive Parkour System\\Scripts\\Player.cs",
+              "ViewState": "AQIAADEGAAAAAAAAAIAwwEQGAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T02:13:15.087Z",
               "EditorCaption": ""
             }
           ]
